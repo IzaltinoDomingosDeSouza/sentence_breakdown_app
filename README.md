@@ -28,8 +28,8 @@ To run this app locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/izaltinodsouza/sentence-breakdown-app.git
-cd sentence-breakdown-app
+git clone https://github.com/izaltinodsouza/sentence_breakdown_app.git
+cd sentence_breakdown_app
 ```
 2. Install Dependencies:
 ```bash
