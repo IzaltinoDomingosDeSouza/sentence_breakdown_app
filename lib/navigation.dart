@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sentence_breakdown_app/screens/my_vocabulary.dart';
 
 class Navigation extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _NavigationState extends State<Navigation> {
   final List<Widget> _screens = [
     Center(child: Text("TODO : Review")),
     Center(child: Text("TODO : My Library")),
-    Center(child: Text("TODO : My Vocabulary")),
+    MyVocabulary(),
   ];
 
   void _onTabTapped(int index) {
