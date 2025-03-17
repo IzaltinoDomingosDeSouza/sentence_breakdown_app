@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:io';
+import 'package:sentence_breakdown_app/navigation.dart';
 
 void main() {
   runApp(const HomeScreen());
@@ -15,13 +15,8 @@ class HomeScreen extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Home'),
-          centerTitle: true,
-        ),
-        body: const Center(child: Text("TODO")),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Navigation(),
     );
   }
 }
